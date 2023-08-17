@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greedysnake</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        #app {
+            position: relative;
+
+        }
+
+        .score {
+            text-align: center;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid #fff;
+        }
+
+        td {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <h2 class="score">Score: 0</h2>
+    </div>
+
+
+</body>
+<script src="./Game.js"></script>
+<script src="./Snake.js"></script>
+<script src="./Food.js"></script>
+
+
+<script>
+    const game = new Game();
+</script>
+
+</html>
